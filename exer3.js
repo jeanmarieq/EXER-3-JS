@@ -4,9 +4,14 @@ let idade = prompt("Qual é sua idade");
 
 console.log ("Bem-vindo", nome, "Adoramos tê-lo aqui, abaixo os dados que forneço para nós");
 console.log("");
-console.log('Dados do usuario')
-console.log (nome);
-console.log (sobrenome);
-console.log (idade);
+console.log('Dados do usuario');
+console.table(
+    {
+        'Nome': nome,
+        'Sobrenome' : sobrenome,
+        'Idade' : idade,
+
+    }
+)
 
 
